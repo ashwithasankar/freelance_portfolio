@@ -1,0 +1,41 @@
+:root {
+  /* Dark Theme Default */
+  --bg-primary: #111713;
+  --bg-surface: #1D2821;
+  --bg-surface-elevated: #25332A;
+  --bg-surface-subtle: #162019;
+  --text-primary: #F3F5F1;
+  --text-muted: #A8B5AA;
+  --text-faint: #657467;
+  --accent-lime: #B7F36B;
+  --accent-lime-hover: #C8FA82;
+  --accent-lime-dim: rgba(183, 243, 107, 0.12);
+  --border-subtle: rgba(168, 181, 170, 0.15);
+  --border-prominent: rgba(183, 243, 107, 0.35);
+  --glass-bg: rgba(29, 40, 33, 0.65);
+  --nav-backdrop: rgba(17, 23, 19, 0.85);
+  --shadow-ambient: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+  --fog-color: #111713;
+  --glow-color: rgba(183, 243, 107, 0.15);
+}
+
+[data-theme="light"] {
+  /* Light Theme */
+  --bg-primary: #F7F9F5;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #EEF3EB;
+  --bg-surface-subtle: #F0F4ED;
+  --text-primary: #111713;
+  --text-muted: #4B5A4E;
+  --text-faint: #798A7D;
+  --accent-lime: #2E6B10;
+  --accent-lime-hover: #22510A;
+  --accent-lime-dim: rgba(46, 107, 16, 0.12);
+  --border-subtle: rgba(75, 90, 78, 0.18);
+  --border-prominent: rgba(46, 107, 16, 0.4);
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --nav-backdrop: rgba(247, 249, 245, 0.88);
+  --shadow-ambient: 0 20px 40px -15px rgba(17, 23, 19, 0.1);
+  --fog-color: #F7F9F5;
+  --glow-color: rgba(46, 107, 16, 0.12);
+}
